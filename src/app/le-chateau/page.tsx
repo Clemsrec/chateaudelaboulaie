@@ -46,7 +46,7 @@ export default async function LeChateauPage() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-3xl font-display font-semibold text-primary mb-6">
-                Une demeure de caractère
+                L'élégance d'une demeure de caractère
               </h2>
               <div className="space-y-4 text-secondary leading-relaxed">
                 <p>
@@ -60,6 +60,13 @@ export default async function LeChateauPage() {
                 <p>
                   Les salons du château, lumineux et raffinés, accueillent vos instants les plus précieux 
                   dans une ambiance feutrée.
+                </p>
+                <p>
+                  La salle de bal, espace emblématique du lieu, invite à la fête et à la danse sous ses hauts plafonds 
+                  et ses grandes fenêtres ouvertes sur le parc.
+                </p>
+                <p>
+                  La terrasse et la cour intérieure offrent un décor naturel et élégant pour vos cocktails en plein air.
                 </p>
                 <p className="text-primary font-medium text-lg">
                   Un lieu de caractère, vivant et accueillant, où chaque recoin raconte une histoire.
@@ -110,6 +117,7 @@ export default async function LeChateauPage() {
             </div>
 
             {/* Parc */}
+            {/* Parc */}
             <div className="bg-card rounded-lg overflow-hidden shadow-lg">
               <div className="p-8">
                 <div className="text-4xl mb-4">🌳</div>
@@ -117,8 +125,8 @@ export default async function LeChateauPage() {
                   Le Parc à l'Anglaise
                 </h3>
                 <p className="text-secondary mb-4 leading-relaxed">
-                  Idéal pour une cérémonie laïque face au château ou à l'étang, 
-                  ou un cocktail en plein air dans un décor naturel et élégant.
+                  Idéal pour une cérémonie ou un cocktail en extérieur. Entouré de vignes, 
+                  il offre un cadre naturel et élégant.
                 </p>
                 <div className="flex items-center justify-between text-sm border-t border-border pt-4">
                   <span className="text-accent font-medium">Usage</span>
@@ -128,6 +136,58 @@ export default async function LeChateauPage() {
             </div>
 
             {/* Salons */}
+            <div className="bg-card rounded-lg overflow-hidden shadow-lg">
+              <div className="p-8">
+                <div className="text-4xl mb-4">✨</div>
+                <h3 className="text-2xl font-display font-semibold text-primary mb-4">
+                  Les Salons Privés
+                </h3>
+                <p className="text-secondary mb-4 leading-relaxed">
+                  Parfaits pour un brunch, un vin d'honneur ou une cérémonie intime. 
+                  Lumineux et raffinés dans une ambiance feutrée.
+                </p>
+                <div className="flex items-center justify-between text-sm border-t border-border pt-4">
+                  <span className="text-accent font-medium">Ambiance</span>
+                  <span className="text-foreground">Intimiste & raffinée</span>
+                </div>
+              </div>
+            </div>
+
+            {/* Étang */}
+            <div className="bg-card rounded-lg overflow-hidden shadow-lg">
+              <div className="p-8">
+                <div className="text-4xl mb-4">💧</div>
+                <h3 className="text-2xl font-display font-semibold text-primary mb-4">
+                  L'Étang et ses Abords
+                </h3>
+                <p className="text-secondary mb-4 leading-relaxed">
+                  Décor romantique pour vos photos. Un lieu paisible 
+                  qui ajoute une touche de poésie à votre journée.
+                </p>
+                <div className="flex items-center justify-between text-sm border-t border-border pt-4">
+                  <span className="text-accent font-medium">Spécialité</span>
+                  <span className="text-foreground">Photographies</span>
+                </div>
+              </div>
+            </div>
+
+            {/* Cour intérieure */}
+            <div className="bg-card rounded-lg overflow-hidden shadow-lg">
+              <div className="p-8">
+                <div className="text-4xl mb-4">🏰</div>
+                <h3 className="text-2xl font-display font-semibold text-primary mb-4">
+                  La Cour Intérieure et le Patio
+                </h3>
+                <p className="text-secondary mb-4 leading-relaxed">
+                  Alternative élégante en cas de météo capricieuse. 
+                  Espace abrité conservant le charme d'un cadre extérieur.
+                </p>
+                <div className="flex items-center justify-between text-sm border-t border-border pt-4">
+                  <span className="text-accent font-medium">Avantage</span>
+                  <span className="text-foreground">Solution météo</span>
+                </div>
+              </div>
+            </div>            {/* Salons */}
             <div className="bg-card rounded-lg overflow-hidden shadow-lg">
               <div className="p-8">
                 <div className="text-4xl mb-4">✨</div>

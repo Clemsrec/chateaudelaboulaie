@@ -13,9 +13,8 @@ export const metadata: Metadata = {
 };
 
 /**
- * Page Conditions Générales de Vente
- * 
- * Conditions contractuelles pour la réservation des lieux d'exception
+ * Page CGV
+ * Conditions contractuelles pour la réservation du Château de la Boulaie
  */
 export default function CGVPage() {
   return (

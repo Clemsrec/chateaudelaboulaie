@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 /**
  * Page Mentions Légales
  * 
- * Informations légales obligatoires pour le site Lieux d'Exception
+ * Informations légales obligatoires pour le site Château de la Boulaie
  */
 export default function MentionsLegalesPage() {
   return (

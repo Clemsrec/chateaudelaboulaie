@@ -9,11 +9,11 @@ import { adminDb, ensureAdminInitialized } from './firebase-admin';
 import type { Venue, Lead, VenueFilters, Analytics } from '@/types/firebase';
 
 // =====================================
-// SERVICES VENUES (Lieux d'Exception)
+// SERVICES VENUES (Château de la Boulaie)
 // =====================================
 
 /**
- * Récupérer tous les lieux d'exception
+ * Récupérer tous les lieux
  * @param filters Filtres optionnels pour la recherche
  * @returns Promise<Venue[]> Liste des lieux
  */

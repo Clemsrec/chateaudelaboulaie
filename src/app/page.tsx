@@ -40,7 +40,7 @@ export default async function Home() {
             Moderne et raffiné, au cœur du vignoble nantais
           </p>
           <p className="text-white/90 text-lg mb-8 animate-fade-in" style={{ animationDelay: '0.4s' }}>
-            Un cadre d'exception pour vos mariages et événements professionnels
+            Un cadre rare, à deux pas de la ville, pour vivre la magie d'un mariage hors du temps
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-fade-in" style={{ animationDelay: '0.6s' }}>
             <Link href="/mariages" className="btn-primary">
@@ -219,10 +219,10 @@ export default async function Home() {
               <div className="font-display text-7xl text-accent/20 font-light mb-6">
                 03
               </div>
-              <h3 className="text-xl font-heading font-semibold mb-4 letter-spacing-wide">Réseau de partenaires</h3>
+              <h3 className="text-xl font-heading font-semibold mb-4 letter-spacing-wide">Partenaires de confiance</h3>
               <div className="w-16 h-px bg-accent/40 mx-auto mb-4" />
               <p className="text-secondary leading-relaxed">
-                Accès à un réseau de partenaires sélectionnés : traiteurs, décorateurs, fleuristes, photographes… tous choisis pour leur exigence et leur sens du service.
+                Une sélection de partenaires choisis pour leur professionnalisme, leur créativité et leur élégance : traiteurs, décorateurs, photographes.
               </p>
             </div>
 
@@ -230,10 +230,10 @@ export default async function Home() {
               <div className="font-display text-7xl text-accent/20 font-light mb-6">
                 04
               </div>
-              <h3 className="text-xl font-heading font-semibold mb-4 letter-spacing-wide">Liberté & Accompagnement</h3>
+              <h3 className="text-xl font-heading font-semibold mb-4 letter-spacing-wide">Accompagnement bienveillant</h3>
               <div className="w-16 h-px bg-accent/40 mx-auto mb-4" />
               <p className="text-secondary leading-relaxed">
-                Liberté totale dans le choix de vos prestataires, avec accès à une sélection de partenaires de confiance si vous le souhaitez.
+                Un soutien discret mais attentif, du premier échange jusqu'au grand jour, pour que chaque détail reflète votre personnalité.
               </p>
             </div>
           </div>
@@ -255,8 +255,8 @@ export default async function Home() {
             <p className="text-3xl md:text-4xl font-display italic text-white mb-6" style={{ textShadow: '0 2px 20px rgba(0, 0, 0, 0.5)' }}>
               Un lieu de caractère, vivant et accueillant, où chaque recoin raconte une histoire.
             </p>
-            <p className="text-xl text-white/90 mb-8 font-light uppercase tracking-wider">
-              Château de la Boulaie — Où vos moments deviennent inoubliables
+            <p className="text-xl text-white/90 mb-8 font-light">
+              Un lieu pensé pour les émotions, où chaque détail devient un souvenir.
             </p>
             <Link href="/contact" className="btn-primary">
               Nous contacter

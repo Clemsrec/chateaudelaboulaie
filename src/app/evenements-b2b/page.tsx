@@ -3,19 +3,19 @@ import Image from 'next/image';
 
 /**
  * Métadonnées pour la page Événements B2B
- * Page dédiée aux événements professionnels dans les lieux d'exception
+ * Page dédiée aux événements professionnels au Château de la Boulaie
  */
 export const metadata: Metadata = {
-  title: 'Événements B2B | Lieux d\'Exception - Groupe Riou',
-  description: 'Organisez vos séminaires, conférences et événements corporate dans nos lieux d\'exception. Solutions complètes pour entreprises.',
-  keywords: 'événements B2B, séminaires, conférences, corporate, team building, réunions',
+  title: 'Événements Professionnels | Château de la Boulaie',
+  description: 'Organisez vos séminaires, conférences et événements corporate au Château de la Boulaie. Un cadre d\'exception près de Nantes pour vos événements d\'entreprise.',
+  keywords: 'événements B2B, séminaires, conférences, corporate, team building, Nantes, Loire-Atlantique',
 };
 
 /**
  * Page Événements B2B
  * 
  * Cette page présente les services et solutions pour les événements
- * professionnels dans les 5 lieux d'exception du Groupe Riou.
+ * professionnels au Château de la Boulaie.
  */
 export default function EvenementsB2BPage() {
   return (
@@ -37,17 +37,14 @@ export default function EvenementsB2BPage() {
           </h1>
           <div className="accent-line" />
           <p className="hero-subtitle">
-            Et si vos événements professionnels devenaient… tout simplement exceptionnels ?
+            Un cadre d&apos;exception pour vos événements d&apos;entreprise
           </p>
           <p className="text-white/90 text-lg mb-4" style={{ textShadow: '0 2px 20px rgba(0, 0, 0, 0.4)' }}>
-            Implantés en Loire-Atlantique, nous transformons chaque moment d&apos;entreprise en une expérience rare, mémorable et profondément marquante.
+            À deux pas de Nantes, le Château de la Boulaie accueille vos séminaires, réunions et événements corporate dans un cadre moderne et raffiné.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <button className="btn-primary">
               Demander un devis
-            </button>
-            <button className="btn-secondary" style={{ color: 'white', borderColor: 'white' }}>
-              Voir le catalogue
             </button>
           </div>
         </div>
@@ -58,51 +55,52 @@ export default function EvenementsB2BPage() {
       {/* Ce que nous vous offrons */}
       <section className="mb-16">
         <div className="text-center mb-12">
-          <h2 className="text-3xl font-semibold mb-8">
+                    <h2 className="text-3xl font-semibold mb-8">
             Ce que nous vous offrons
           </h2>
           <div className="accent-line" />
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
-          {/* Une émotion d'éveil */}
+          {/* Un cadre d'exception */}
           <div>
             <h3 className="text-2xl font-semibold mb-6 text-primary flex items-center">
               <div className="w-20 h-px bg-accent/40 mr-4" />
-              Une émotion d’éveil
+              Un cadre d'exception
             </h3>
             <p className="text-secondary leading-relaxed">
-              Parce qu&apos;un séminaire, un lancement de produit ou un comité de direction ne devraient jamais laisser indifférent. 
-              Chaque lieu est pensé comme support au service de votre message et de l&apos;expérience que vous souhaitez faire vivre. 
-              Il devient un levier stratégique pour renforcer l&apos;impact de vos événements et suscite une véritable connexion émotionnelle.
+              Le Château de la Boulaie offre un cadre unique pour vos événements professionnels : salle de bal, salons privés, parc à l&apos;anglaise. 
+              Un lieu moderne et raffiné qui valorise votre image et crée une vraie connexion avec vos équipes et partenaires.
             </p>
           </div>
 
-          {/* Un service d'excellence */}
+          {/* Des espaces modulables */}
           <div>
             <h3 className="text-2xl font-semibold mb-6 text-primary flex items-center">
               <div className="w-20 h-px bg-accent/40 mr-4" />
-              Un service d’excellence
+              Des espaces modulables
             </h3>
             <p className="text-secondary leading-relaxed">
-              Véritable soutien opérationnel aux entreprises, notre accompagnement est sur mesure : une expertise de plus de 20 ans en accueil et service événementiels, 
-              des partenaires sélectionnés au fil des années, un coordinateur unique à la fois administratif et technique copilote avec vous l&apos;ensemble de votre projet 
-              pour garantir efficacité, cohérence et tenue des objectifs.
+              De 20 à 250 personnes, nos espaces s&apos;adaptent à vos besoins : réunions stratégiques, séminaires, team building, 
+              cocktails d&apos;entreprise. Entièrement privatisables, ils garantissent confidentialité et exclusivité.
             </p>
           </div>
 
-          {/* Des lieux inspirés */}
+          {/* Proximité de Nantes */}
           <div>
             <h3 className="text-2xl font-semibold mb-6 text-primary flex items-center">
               <div className="w-20 h-px bg-accent/40 mr-4" />
-              Des lieux inspirés
+              Proximité de Nantes
             </h3>
             <p className="text-secondary leading-relaxed">
-              Manoirs réhabilités, domaines confidentiels, espaces atypiques, parcs paysagés… Nos lieux offrent des conditions idéales pour accueillir vos réunions, 
-              sublimer vos cocktails ou animer journées d&apos;équipe. Entièrement privatisables et modulables, ces lieux sont conçus pour s&apos;adapter à vos objectifs.
+              Situé à Haute-Goulaine, au cœur du vignoble nantais, le château est facilement accessible depuis Nantes et ses infrastructures 
+              (aéroport, gare TGV). Un cadre exceptionnel sans contrainte logistique.
             </p>
           </div>
         </div>
+      </section>
+
+      {/* Une expérience pour vos équipes */}
       </section>
 
       {/* Une expérience pour vos équipes */}
@@ -151,21 +149,18 @@ export default function EvenementsB2BPage() {
       {/* CTA Section */}
       <section className="text-center bg-primary/5 rounded-2xl p-12">
         <h2 className="text-3xl font-semibold mb-4">
-          Êtes-vous prêt à vivre cette expérience ?
+          Prêt à organiser votre événement au Château de la Boulaie ?
         </h2>
-        <p className="text-secondary text-lg mb-2">
-          <strong>Lieux d&apos;Exception, c&apos;est plus qu&apos;un service événementiel :</strong>
-        </p>
         <p className="text-secondary text-lg mb-8">
-          c&apos;est une promesse de singularité, une invitation à l&apos;émotion, une exigence de qualité.
+          Contactez-nous pour découvrir nos espaces et discuter de votre projet.
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <button className="btn-primary">
-            Nous contacter
+            Demander une visite
           </button>
           <div className="text-sm text-secondary">
-            <p><strong className="text-foreground">Téléphone :</strong> 06 02 03 70 11</p>
+            <p><strong className="text-foreground">Téléphone :</strong> +33 6 02 03 70 11</p>
             <p><strong className="text-foreground">Email :</strong> contact@chateaudelaboulaie.fr</p>
           </div>
         </div>
