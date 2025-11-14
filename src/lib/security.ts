@@ -1,5 +1,5 @@
 /**
- * Utilitaires de Sécurité - Lieux d'Exception
+ * Utilitaires de Sécurité - Château de la Boulaie
  * 
  * Fonctions helper pour la sécurisation de l'application
  * (rate limiting, sanitization, hashing, etc.)

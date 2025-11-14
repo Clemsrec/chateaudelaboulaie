@@ -83,7 +83,7 @@ export default function MentionsLegalesPage() {
             Pour exercer ces droits, vous pouvez nous contacter :
           </p>
           <ul className="list-disc list-inside mb-4 space-y-1">
-            <li>Par email : dpo@lieuxdexception.fr</li>
+            <li>Par email : dpo@chateaudelaboulaie.fr</li>
             <li>Par courrier : Groupe Riou - DPO, 123 Avenue des Champs, 75008 Paris</li>
           </ul>
           <p>
@@ -98,7 +98,7 @@ export default function MentionsLegalesPage() {
             Les informations contenues sur ce site sont aussi précises que possible et le site remis à jour à différentes périodes de l&apos;année, mais peut toutefois contenir des inexactitudes ou des omissions.
           </p>
           <p className="mb-4">
-            Si vous constatez une lacune, erreur ou ce qui parait être un dysfonctionnement, merci de bien vouloir le signaler par email à l&apos;adresse contact@lieuxdexception.fr, en décrivant le problème de la manière la plus précise possible.
+            Si vous constatez une lacune, erreur ou ce qui parait être un dysfonctionnement, merci de bien vouloir le signaler par email à l&apos;adresse contact@chateaudelaboulaie.fr, en décrivant le problème de la manière la plus précise possible.
           </p>
           <p>
             En aucun cas, le Groupe Riou ne pourra être tenu responsable de tous dommages, quels qu&apos;ils soient, résultant de l&apos;utilisation du site et de ses services.
@@ -109,7 +109,7 @@ export default function MentionsLegalesPage() {
         <section className="mb-8">
           <h2 className="text-2xl font-semibold mb-4">6. Droit applicable et juridiction</h2>
           <p className="mb-4">
-            Tout litige en relation avec l&apos;utilisation du site www.lieuxdexception.fr est soumis au droit français. Il est fait attribution exclusive de juridiction aux tribunaux compétents de Paris.
+            Tout litige en relation avec l&apos;utilisation du site www.chateaudelaboulaie.fr est soumis au droit français. Il est fait attribution exclusive de juridiction aux tribunaux compétents de Paris.
           </p>
         </section>
 

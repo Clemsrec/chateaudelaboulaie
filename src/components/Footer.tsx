@@ -6,7 +6,7 @@ import Image from 'next/image';
 /**
  * Composant Footer principal
  * 
- * Footer principal du site Lieux d'Exception avec :
+ * Footer principal du site Château de la Boulaie avec :
  * - Informations sur le Groupe Riou
  * - Navigation principale
  * - Services proposés
@@ -22,12 +22,12 @@ export default function Footer() {
         {/* Contenu principal du footer */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
           
-          {/* Informations principales sur Lieux d'Exception */}
+          {/* Informations principales sur Château de la Boulaie */}
           <div className="lg:col-span-1">
             <Link href="/" className="inline-block mb-4 hover:opacity-80 transition-opacity shrink-0">
               <Image
                 src="/logo/Logo_CLE_avec Texte.png"
-                alt="Lieux d'Exception"
+                alt="Château de la Boulaie"
                 width={140}
                 height={40}
                 className="h-8 w-auto max-w-[140px]"
@@ -35,8 +35,8 @@ export default function Footer() {
               />
             </Link>
             <p className="text-secondary text-sm mb-4 leading-relaxed">
-              Le catalogue B2B du Groupe Riou présentant 5 lieux événementiels 
-              d&apos;exception en France pour vos séminaires, mariages et événements corporate.
+              Domaine événementiel d'exception du Groupe Riou à Haute-Goulaine.
+              Mari ages et événements professionnels dans un cadre historique au cœur du vignoble nantais.
             </p>
             <p className="text-secondary text-sm font-medium">
               Excellence événementielle depuis 1995

@@ -4,12 +4,12 @@ import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 
 /**
- * Métadonnées principales pour le site Lieux d'Exception
- * Site catalogue B2B du Groupe Riou présentant 5 lieux événementiels
+ * Métadonnées principales pour le site Château de la Boulaie
+ * Domaine événementiel du Groupe Riou en Loire-Atlantique
  */
 export const metadata: Metadata = {
-  title: "Lieux d'Exception - Groupe Riou | Catalogue B2B",
-  description: "Découvrez notre collection de 5 lieux événementiels d'exception en France. Séminaires, conférences, mariages et réceptions privées. Groupe Riou - Excellence événementielle.",
+  title: "Château de la Boulaie - Mariages & Événements d'Exception | Groupe Riou",
+  description: "Domaine d'exception à Haute-Goulaine pour vos mariages et événements professionnels. Château historique au cœur du vignoble nantais. Groupe Riou.",
   keywords: "lieux événementiels, séminaires, mariages, groupe riou, événements professionnels, réceptions",
   icons: {
     icon: [
@@ -21,16 +21,16 @@ export const metadata: Metadata = {
   creator: "Groupe Riou",
   publisher: "Groupe Riou",
   openGraph: {
-    title: "Lieux d'Exception - Groupe Riou",
-    description: "Collection de 5 lieux événementiels d'exception en France",
+    title: "Château de la Boulaie - Groupe Riou",
+    description: "Domaine d'exception pour mariages et événements à Haute-Goulaine",
     type: "website",
     locale: "fr_FR",
-    siteName: "Lieux d'Exception",
+    siteName: "Château de la Boulaie",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Lieux d'Exception - Groupe Riou",
-    description: "Collection de 5 lieux événementiels d'exception en France",
+    title: "Château de la Boulaie - Groupe Riou",
+    description: "Domaine d'exception pour mariages et événements à Haute-Goulaine",
   },
   robots: {
     index: true,

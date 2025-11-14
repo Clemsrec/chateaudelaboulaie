@@ -372,7 +372,7 @@ export default function CookiesPage() {
             <div className="space-y-1 text-sm">
               <p className="flex items-center">
                 
-                Email : <a href="mailto:dpo@lieuxdexception.fr" className="text-primary hover:underline">dpo@lieuxdexception.fr</a>
+                Email : <a href="mailto:dpo@chateaudelaboulaie.fr" className="text-primary hover:underline">dpo@chateaudelaboulaie.fr</a>
               </p>
               <p className="flex items-center">
                 

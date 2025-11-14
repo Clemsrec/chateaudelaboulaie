@@ -1,5 +1,5 @@
 /**
- * Composant de test Firebase - Lieux d'Exception
+ * Composant de test Firebase - Château de la Boulaie
  * 
  * Ce composant vérifie la connexion à Firebase et affiche
  * le statut de la base de données Firestore.

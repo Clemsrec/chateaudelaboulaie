@@ -1,4 +1,4 @@
-/* Configuration Tailwind CSS v4 - Lieux d'Exception */
+/* Configuration Tailwind CSS v4 - Château de la Boulaie */
 @import "tailwindcss";
 
 /* Configuration personnalisée avec @theme */
@@ -692,7 +692,7 @@ img[alt="Lieux d'Exception"] {
 }
 
 /* Logo navigation header - plus petit */
-nav img[alt="Lieux d'Exception"] {
+nav img[alt="Château de la Boulaie"] {
   max-width: 120px !important;
   max-height: 35px !important;
 }

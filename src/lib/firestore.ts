@@ -1,5 +1,5 @@
 /**
- * Services Firestore pour Lieux d'Exception
+ * Services Firestore pour Château de la Boulaie
  * 
  * Ce fichier contient tous les services pour interagir avec la base de données
  * Firestore. Utilise l'Admin SDK côté serveur pour bypass les règles de sécurité.

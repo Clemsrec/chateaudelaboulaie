@@ -1,5 +1,5 @@
 /**
- * Composant Navigation - Barre de navigation principale pour Lieux d'Exception
+ * Composant Navigation - Barre de navigation principale pour Château de la Boulaie
  * 
  * Ce composant utilise les nouvelles fonctionnalités de Tailwind v4 :
  * - Variables CSS personnalisées
@@ -68,7 +68,7 @@ export default function Navigation() {
           >
             <Image
               src="/logo/Logo_CLE_avec Texte.png"
-              alt="Lieux d'Exception"
+              alt="Château de la Boulaie"
               width={120}
               height={35}
               priority

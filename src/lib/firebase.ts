@@ -3,11 +3,11 @@ import { getAuth } from 'firebase/auth';
 import { getFirestore } from 'firebase/firestore';
 
 /**
- * Configuration Firebase pour Lieux d'Exception
+ * Configuration Firebase pour Château de la Boulaie
  * 
- * Projet: lieux-d-exceptions (ID: 886228169873)
+ * Projet: chateaudelaboulaie (ID: chateaudelaboulaie)
  * Organisation: nucom.fr
- * Application: Lieux d'Exception (B2B)
+ * Application: Château de la Boulaie
  * 
  * Note: Firebase App Hosting injecte automatiquement :
  * - FIREBASE_CONFIG (Admin SDK - côté serveur)

@@ -53,7 +53,7 @@ export default function ConfidentialitePage() {
           <div className="bg-muted p-6 rounded-lg">
             <p><strong>Groupe Riou SAS</strong></p>
             <p>123 Avenue des Champs, 75008 Paris, France</p>
-            <p>Email : dpo@lieuxdexception.fr</p>
+            <p>Email : dpo@chateaudelaboulaie.fr</p>
             <p>Téléphone : +33 1 23 45 67 89</p>
           </div>
         </section>
@@ -272,7 +272,7 @@ export default function ConfidentialitePage() {
             <p className="text-sm mb-2">Contactez notre Délégué à la Protection des Données :</p>
             <p className="text-sm flex items-center gap-2 mb-1">
               
-              Email : <a href="mailto:dpo@lieuxdexception.fr" className="text-primary hover:underline">dpo@lieuxdexception.fr</a>
+              Email : <a href="mailto:dpo@chateaudelaboulaie.fr" className="text-primary hover:underline">dpo@chateaudelaboulaie.fr</a>
             </p>
             <p className="text-sm flex items-center gap-2">
               
@@ -329,7 +329,7 @@ export default function ConfidentialitePage() {
             <p><strong>Délégué à la Protection des Données</strong></p>
             <p className="flex items-center gap-2">
               
-              Email : dpo@lieuxdexception.fr
+              Email : dpo@chateaudelaboulaie.fr
             </p>
             <p className="flex items-center gap-2">
               

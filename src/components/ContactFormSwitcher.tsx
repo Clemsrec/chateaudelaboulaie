@@ -473,7 +473,7 @@ export default function ContactFormSwitcher({ defaultForm = 'b2b' }: ContactForm
                 01 23 45 67 89
               </a>
               <a 
-                href="mailto:contact@lieuxdexception.fr" 
+                href="mailto:contact@chateaudelaboulaie.fr" 
                 className="border border-border px-4 py-2 rounded-lg hover:bg-muted-foreground/5 transition-colors text-center sm:flex-1"
               >
                 ✉️ Email direct

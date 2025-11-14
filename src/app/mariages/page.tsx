@@ -124,7 +124,7 @@ export default function MariagesPage() {
           </button>
           <div className="text-sm text-secondary">
             <p><strong className="text-foreground">Téléphone :</strong> 06 02 03 70 11</p>
-            <p><strong className="text-foreground">Email :</strong> contact@lieuxdexception.com</p>
+            <p><strong className="text-foreground">Email :</strong> contact@chateaudelaboulaie.fr</p>
           </div>
         </div>
       </section>
