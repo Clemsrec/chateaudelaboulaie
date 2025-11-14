@@ -1,12 +1,12 @@
-# Lieux d'Exception - Groupe Riou
+# Château de la Boulaie - Groupe Riou
 
-Site vitrine B2B pour la collection "Lieux d'Exception" du Groupe Riou, présentant 5 domaines prestigieux pour événements professionnels et mariages.
+Site vitrine du Château de la Boulaie, domaine prestigieux du Groupe Riou pour événements professionnels et mariages d'exception.
 
 ## 🏛️ Présentation du Projet
 
-**Lieux d'Exception** est la plateforme B2B du Groupe Riou proposant des lieux d'exception pour :
+**Château de la Boulaie** est un lieu d'exception du Groupe Riou proposant :
 - **Événements professionnels** : séminaires, conférences, lancements produit, team building
-- **Mariages et réceptions** : célébrations dans des cadres prestigieux
+- **Mariages et réceptions** : célébrations dans un cadre prestigieux
 - **Services sur-mesure** : accompagnement complet de A à Z
 
 ## 🚀 Stack Technique
@@ -43,15 +43,17 @@ src/
 ## 🔥 Configuration Firebase
 
 ### Projet Firebase
-- **Nom du projet** : `lieux-d-exceptions`
-- **ID du projet** : `886228169873`
-- **Base de données** : `lieuxdexception`
-- **Région** : Europe (europe-west1)
+- **Nom du projet** : `chateaudelaboulaie`
+- **ID du projet** : `chateaudelaboulaie`
+- **Numéro du projet** : `582343938246`
+- **Base de données** : `(default)`
+- **Organisation** : `nucom.fr`
 
 ### Services Activés
 - **Firestore** : Base de données NoSQL pour les lieux, leads et analytics
 - **Authentication** : Authentification utilisateur (admin)
-- **Hosting** : Déploiement de production
+- **Storage** : Stockage des images et documents
+- **App Hosting** : Déploiement de production
 
 ### Variables d'Environnement
 
@@ -61,17 +63,18 @@ Créer un fichier `.env.local` à la racine du projet (ce fichier est dans .giti
 
 ```env
 # Configuration Firebase (NE PAS COMMITER CES VALEURS)
-NEXT_PUBLIC_FIREBASE_API_KEY=votre_clé_api_ici
-NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=lieux-d-exceptions.firebaseapp.com
-NEXT_PUBLIC_FIREBASE_PROJECT_ID=lieux-d-exceptions
-NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=lieux-d-exceptions.firebasestorage.app
-NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=886228169873
-NEXT_PUBLIC_FIREBASE_APP_ID=votre_app_id_ici
+NEXT_PUBLIC_FIREBASE_API_KEY=AIzaSyCInkUvesBQajkoZVTIRmIXh4Nsrh0AdDg
+NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=chateaudelaboulaie.firebaseapp.com
+NEXT_PUBLIC_FIREBASE_PROJECT_ID=chateaudelaboulaie
+NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=chateaudelaboulaie.firebasestorage.app
+NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=582343938246
+NEXT_PUBLIC_FIREBASE_APP_ID=1:582343938246:web:320f996c85cf62dd6207c7
+NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID=G-WTR2LWWSNY
 ```
 
 **Pour obtenir vos clés Firebase :**
 1. Connectez-vous à la [Console Firebase](https://console.firebase.google.com/)
-2. Sélectionnez le projet `lieux-d-exceptions`
+2. Sélectionnez le projet `chateaudelaboulaie`
 3. Allez dans Paramètres du projet > Applications Web
 4. Copiez les valeurs de configuration dans votre `.env.local`
 
@@ -220,5 +223,5 @@ vercel --prod
 
 ---
 
-**Lieux d'Exception** - Une expérience B2B premium pour des événements inoubliables.
+**Château de la Boulaie** - Un lieu d'exception pour des événements inoubliables.
 *Développé avec ❤️ et Next.js 15 par l'équipe Groupe Riou*

@@ -1,7 +1,7 @@
 {
-  "name": "lieux-d-exception",
+  "name": "chateaudelaboulaie",
   "version": "1.0.0",
-  "description": "Site catalogue B2B du Groupe Riou présentant 5 lieux événementiels d'exception en France",
+  "description": "Site vitrine du Château de la Boulaie - Événements professionnels et mariages d'exception",
   "private": true,
   "scripts": {
     "dev": "next dev",

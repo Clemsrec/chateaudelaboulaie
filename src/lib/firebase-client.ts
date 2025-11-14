@@ -3,7 +3,7 @@ import { getAuth, Auth } from 'firebase/auth';
 import { getFirestore, Firestore } from 'firebase/firestore';
 
 /**
- * Firebase Client SDK pour Lieux d'Exception
+ * Firebase Client SDK pour Château de la Boulaie
  * 
  * Utilisé côté client uniquement (navigateur) :
  * - Client Components ('use client')
@@ -27,12 +27,13 @@ try {
   } else {
     // Variables d'env individuelles (dev local)
     firebaseConfig = {
-      apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
-      authDomain: process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN,
-      projectId: process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID,
-      storageBucket: process.env.NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET,
-      messagingSenderId: process.env.NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID,
-      appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID,
+      apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY || 'AIzaSyCInkUvesBQajkoZVTIRmIXh4Nsrh0AdDg',
+      authDomain: process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN || 'chateaudelaboulaie.firebaseapp.com',
+      projectId: process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID || 'chateaudelaboulaie',
+      storageBucket: process.env.NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET || 'chateaudelaboulaie.firebasestorage.app',
+      messagingSenderId: process.env.NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID || '582343938246',
+      appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID || '1:582343938246:web:320f996c85cf62dd6207c7',
+      measurementId: process.env.NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID || 'G-WTR2LWWSNY',
     };
     console.log('[Firebase Client] Config depuis variables d\'env');
   }
