@@ -67,7 +67,7 @@ export default function Navigation() {
             className="flex items-center hover:opacity-80 transition-opacity shrink-0"
           >
             <Image
-              src="/logo/Logo_CLE_avec Texte.png"
+              src="/logo/CHATEAUDELABOULAIE.png"
               alt="Château de la Boulaie"
               width={120}
               height={35}
@@ -80,10 +80,10 @@ export default function Navigation() {
           {/* Menu desktop */}
           <div className="hidden md:flex items-center space-x-8">
             <Link 
-              href="/catalogue" 
-              className={getLinkClasses('/catalogue')}
+              href="/le-chateau" 
+              className={getLinkClasses('/le-chateau')}
             >
-              Catalogue
+              Le Château
             </Link>
             <Link 
               href="/evenements-b2b" 
@@ -128,11 +128,11 @@ export default function Navigation() {
           <div className="md:hidden py-4 border-t border-border animate-fade-in">
             <div className="flex flex-col space-y-4">
               <Link 
-                href="/catalogue" 
-                className={getLinkClasses('/catalogue')}
+                href="/le-chateau" 
+                className={getLinkClasses('/le-chateau')}
                 onClick={() => setIsMenuOpen(false)}
               >
-                Catalogue des Lieux
+                Le Château
               </Link>
               <Link 
                 href="/evenements-b2b" 

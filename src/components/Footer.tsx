@@ -26,7 +26,7 @@ export default function Footer() {
           <div className="lg:col-span-1">
             <Link href="/" className="inline-block mb-4 hover:opacity-80 transition-opacity shrink-0">
               <Image
-                src="/logo/Logo_CLE_avec Texte.png"
+                src="/logo/CHATEAUDELABOULAIE.png"
                 alt="Château de la Boulaie"
                 width={140}
                 height={40}
@@ -50,11 +50,11 @@ export default function Footer() {
               <ul className="space-y-3 text-sm">
                 <li>
                   <Link 
-                    href="/catalogue" 
+                    href="/le-chateau" 
                     className="text-secondary hover:text-primary transition-colors duration-200 flex items-center group"
                   >
                     <span className="w-1 h-1 bg-secondary rounded-full mr-2 group-hover:bg-primary transition-colors"></span>
-                    Catalogue des lieux
+                    Le Château
                   </Link>
                 </li>
                 <li>
