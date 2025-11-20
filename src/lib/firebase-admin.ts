@@ -5,7 +5,7 @@ import * as fs from 'fs';
 import * as path from 'path';
 
 /**
- * Firebase Admin SDK pour Château de la Boulaie
+ * Firebase Admin SDK pour Manoir de la Boulaie
  * 
  * Utilisé côté serveur uniquement :
  * - Server Components

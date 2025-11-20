@@ -1,5 +1,5 @@
 /**
- * Composant Navigation - Barre de navigation principale pour Château de la Boulaie
+ * Composant Navigation - Barre de navigation principale pour Manoir de la Boulaie
  * 
  * Ce composant utilise les nouvelles fonctionnalités de Tailwind v4 :
  * - Variables CSS personnalisées
@@ -68,7 +68,7 @@ export default function Navigation() {
           >
             <Image
               src="/logo/CHATEAUDELABOULAIE.png"
-              alt="Château de la Boulaie"
+              alt="Manoir de la Boulaie"
               width={120}
               height={35}
               priority
@@ -83,7 +83,7 @@ export default function Navigation() {
               href="/le-chateau" 
               className={getLinkClasses('/le-chateau')}
             >
-              Le Château
+              Le Manoir
             </Link>
             <Link 
               href="/evenements-b2b" 
@@ -132,7 +132,7 @@ export default function Navigation() {
                 className={getLinkClasses('/le-chateau')}
                 onClick={() => setIsMenuOpen(false)}
               >
-                Le Château
+                Le Manoir
               </Link>
               <Link 
                 href="/evenements-b2b" 

@@ -3,11 +3,11 @@ import { getAuth } from 'firebase/auth';
 import { getFirestore } from 'firebase/firestore';
 
 /**
- * Configuration Firebase pour Château de la Boulaie
+ * Configuration Firebase pour Manoir de la Boulaie
  * 
  * Projet: chateaudelaboulaie (ID: chateaudelaboulaie)
  * Organisation: nucom.fr
- * Application: Château de la Boulaie
+ * Application: Manoir de la Boulaie
  * 
  * Note: Firebase App Hosting injecte automatiquement :
  * - FIREBASE_CONFIG (Admin SDK - côté serveur)

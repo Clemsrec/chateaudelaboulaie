@@ -2,7 +2,7 @@ import { User } from 'firebase/auth';
 import { Timestamp } from 'firebase/firestore';
 
 /**
- * Types Firebase pour Château de la Boulaie
+ * Types Firebase pour Manoir de la Boulaie
  * Base de données Firestore: lieuxdexception
  */
 

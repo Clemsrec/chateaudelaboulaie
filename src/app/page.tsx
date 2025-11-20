@@ -6,8 +6,8 @@ import Image from 'next/image';
 export const revalidate = 3600;
 
 export const metadata: Metadata = {
-  title: 'Château de la Boulaie | Mariages & Événements d’Exception à Haute-Goulaine',
-  description: 'Domaine d’exception au cœur du vignoble nantais pour vos mariages et événements professionnels. Château historique avec parc à l’anglaise et salle de bal.',
+  title: 'Manoir de la Boulaie | Mariages & Événements d\'Exception à Haute-Goulaine',
+  description: 'Domaine d\'exception au cœur du vignoble nantais pour vos mariages et événements professionnels. Château historique avec parc à l\'anglaise et salle de bal.',
   keywords: ['château mariage', 'mariage nantes', 'haute-goulaine', 'vignoble nantais', 'événements', 'séminaires', 'réceptions'],
 };
 
@@ -63,13 +63,13 @@ export default async function Home() {
             <div className="accent-line" />
             <div className="section-subtitle animate-fade-in space-y-6 text-lg">
               <p>
-                À seulement quelques minutes de Nantes, le Château de la Boulaie offre une parenthèse de calme et de raffinement, où le temps semble suspendu.
+                À seulement quelques minutes de Nantes, le Manoir de la Boulaie offre une parenthèse de calme et de raffinement, où le temps semble suspendu.
               </p>
               <p>
                 Niché à Haute-Goulaine, au cœur du vignoble nantais, le domaine conjugue l’élégance d’une demeure de caractère à la chaleur d’une maison de famille.
               </p>
               <p>
-                Entouré de vignes, de jardins à l’anglaise et d’un étang paisible, le Château de la Boulaie est le décor rêvé pour célébrer l’amour, la beauté et la convivialité.
+                Entouré de vignes, de jardins à l'anglaise et d'un étang paisible, le Manoir de la Boulaie est le décor rêvé pour célébrer l'amour, la beauté et la convivialité.
               </p>
               <p className="text-2xl font-medium text-primary mt-8">
                 Chaque mariage y devient une expérience unique, à votre image — authentique, poétique et inoubliable.
@@ -184,7 +184,7 @@ export default async function Home() {
         </div>
       </section>
 
-      {/* Nos Prestations - Château de la Boulaie */}
+      {/* Nos Prestations - Manoir de la Boulaie */}
       <section className="section">
         <div className="section-container">
           <div className="text-center mb-16">

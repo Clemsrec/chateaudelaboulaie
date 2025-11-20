@@ -28,8 +28,8 @@ export const metadata: Metadata = {
     siteName: "Château de la Boulaie",
   },
   twitter: {
-    card: "summary_large_image",
-    title: "Château de la Boulaie - Groupe Riou",
+    card: 'summary_large_image',
+    title: "Manoir de la Boulaie - Groupe Riou",
     description: "Domaine d'exception pour mariages et événements à Haute-Goulaine",
   },
   robots: {

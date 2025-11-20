@@ -6,19 +6,19 @@ import Image from 'next/image';
 export const revalidate = 1800;
 
 /**
- * Métadonnées pour la page Le Château
- * Présentation du Château de la Boulaie et de ses espaces
+ * Métadonnées pour la page Le Manoir
+ * Présentation du Manoir de la Boulaie et de ses espaces
  */
 export const metadata: Metadata = {
-  title: 'Le Château | Château de la Boulaie - Haute-Goulaine',
-  description: 'Découvrez le Château de la Boulaie, demeure de caractère du XXᵉ siècle à Haute-Goulaine. Salle de bal, parc à l\'anglaise, étang et jardins.',
-  keywords: 'château, haute-goulaine, vignoble nantais, salle de bal, parc, demeure historique',
+  title: 'Le Manoir | Manoir de la Boulaie - Haute-Goulaine',
+  description: 'Découvrez le Manoir de la Boulaie, demeure de caractère du XXᵉ siècle à Haute-Goulaine. 600m² de salles, parc d\'un hectare, 11 chambres.',
+  keywords: 'manoir, haute-goulaine, vignoble nantais, séminaire, 600m2, parc, demeure historique',
 };
 
 /**
- * Page Le Château - Présentation complète du domaine
+ * Page Le Manoir - Présentation complète du domaine
  * 
- * Cette page présente l'histoire du château, ses espaces
+ * Cette page présente l'histoire du manoir, ses espaces
  * et ses caractéristiques pour les événements.
  */
 export default async function LeChateauPage() {
@@ -30,7 +30,7 @@ export default async function LeChateauPage() {
         <div className="section-container">
           <div className="text-center">
             <h1 className="text-5xl md:text-6xl font-display font-semibold text-primary mb-6 animate-fade-in">
-              Le Château de la Boulaie
+              Le Manoir de la Boulaie
             </h1>
             <div className="accent-line" />
             <p className="text-xl text-secondary leading-relaxed animate-fade-in" style={{ animationDelay: '0.2s' }}>
@@ -249,13 +249,169 @@ export default async function LeChateauPage() {
                   Hébergements
                 </h3>
                 <p className="text-secondary mb-4 leading-relaxed">
-                  Chambres pleines de charme sur place et hébergements de qualité 
-                  à proximité pour accueillir confortablement tous vos invités.
+                  11 chambres doubles sur place (22 personnes) pour séminaires résidentiels 
+                  et week-ends. Confort moderne dans un cadre historique.
                 </p>
                 <div className="flex items-center justify-between text-sm border-t border-border pt-4">
-                  <span className="text-accent font-medium">Localisation</span>
-                  <span className="text-foreground">Sur place & proximité</span>
+                  <span className="text-accent font-medium">Capacité</span>
+                  <span className="text-foreground">11 chambres • 22 pers.</span>
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Nos Salles & Espaces - Section détaillée */}
+      <section className="section section-alt">
+        <div className="section-container">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-display font-semibold text-primary mb-4">
+              Nos Salles & Espaces
+            </h2>
+            <div className="accent-line" />
+            <p className="text-secondary text-lg mt-6">
+              600m² de salles modulables pour tous vos événements
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {/* Espace Plénière */}
+            <div className="bg-white rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow">
+              <div className="flex items-center justify-between mb-4">
+                <h3 className="text-xl font-semibold text-primary">Espace Plénière</h3>
+                <span className="text-accent text-2xl">🏛️</span>
+              </div>
+              <div className="space-y-2 text-sm text-secondary">
+                <p><strong>Conférence :</strong> 230 pers.</p>
+                <p><strong>École :</strong> 150 pers.</p>
+                <p><strong>U :</strong> 30 pers.</p>
+                <p><strong>Réunion :</strong> 230 pers.</p>
+              </div>
+              <p className="text-secondary text-sm mt-4 leading-relaxed">
+                Notre plus grande salle, idéale pour conférences, plénières et grands événements.
+              </p>
+            </div>
+
+            {/* Sous-commission 1 */}
+            <div className="bg-white rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow">
+              <div className="flex items-center justify-between mb-4">
+                <h3 className="text-xl font-semibold text-primary">Sous-commission 1</h3>
+                <span className="text-accent text-2xl">📋</span>
+              </div>
+              <div className="space-y-2 text-sm text-secondary">
+                <p><strong>Conférence :</strong> 50 pers.</p>
+                <p><strong>École :</strong> 40 pers.</p>
+                <p><strong>U :</strong> 25 pers.</p>
+                <p><strong>Réunion :</strong> 50 pers.</p>
+              </div>
+              <p className="text-secondary text-sm mt-4 leading-relaxed">
+                Espace polyvalent pour ateliers, groupes de travail et réunions.
+              </p>
+            </div>
+
+            {/* Sous-commission 2 */}
+            <div className="bg-white rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow">
+              <div className="flex items-center justify-between mb-4">
+                <h3 className="text-xl font-semibold text-primary">Sous-commission 2</h3>
+                <span className="text-accent text-2xl">📋</span>
+              </div>
+              <div className="space-y-2 text-sm text-secondary">
+                <p><strong>Conférence :</strong> 50 pers.</p>
+                <p><strong>École :</strong> 40 pers.</p>
+                <p><strong>U :</strong> 25 pers.</p>
+                <p><strong>Réunion :</strong> 50 pers.</p>
+              </div>
+              <p className="text-secondary text-sm mt-4 leading-relaxed">
+                Salle jumelle idéale pour sessions parallèles et breakout rooms.
+              </p>
+            </div>
+
+            {/* Sous-commission 3 */}
+            <div className="bg-white rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow">
+              <div className="flex items-center justify-between mb-4">
+                <h3 className="text-xl font-semibold text-primary">Sous-commission 3</h3>
+                <span className="text-accent text-2xl">💼</span>
+              </div>
+              <div className="space-y-2 text-sm text-secondary">
+                <p><strong>Conférence :</strong> 40 pers.</p>
+                <p><strong>École :</strong> 20 pers.</p>
+                <p><strong>U :</strong> 12 pers.</p>
+                <p><strong>Réunion :</strong> 40 pers.</p>
+              </div>
+              <p className="text-secondary text-sm mt-4 leading-relaxed">
+                Salle intimiste pour réunions stratégiques et comités restreints.
+              </p>
+            </div>
+
+            {/* Sous-commission 4 */}
+            <div className="bg-white rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow">
+              <div className="flex items-center justify-between mb-4">
+                <h3 className="text-xl font-semibold text-primary">Sous-commission 4</h3>
+                <span className="text-accent text-2xl">💼</span>
+              </div>
+              <div className="space-y-2 text-sm text-secondary">
+                <p><strong>Conférence :</strong> 30 pers.</p>
+                <p><strong>École :</strong> 15 pers.</p>
+                <p><strong>U :</strong> 10 pers.</p>
+                <p><strong>Réunion :</strong> 30 pers.</p>
+              </div>
+              <p className="text-secondary text-sm mt-4 leading-relaxed">
+                Parfaite pour petits groupes, coaching et réunions confidentielles.
+              </p>
+            </div>
+
+            {/* Salons du Manoir */}
+            <div className="bg-white rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow">
+              <div className="flex items-center justify-between mb-4">
+                <h3 className="text-xl font-semibold text-primary">Salons du Manoir</h3>
+                <span className="text-accent text-2xl">☕</span>
+              </div>
+              <div className="space-y-2 text-sm text-secondary">
+                <p><strong>U :</strong> 15 pers.</p>
+                <p><strong>Réunion :</strong> 15 pers.</p>
+              </div>
+              <p className="text-secondary text-sm mt-4 leading-relaxed">
+                Ambiance feutrée pour déjeuners d'affaires, entretiens et réunions intimes.
+              </p>
+            </div>
+          </div>
+
+          {/* Équipements */}
+          <div className="mt-12 p-8 bg-primary/5 rounded-xl">
+            <h3 className="text-xl font-semibold text-primary mb-6 text-center">Équipements & Services</h3>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center text-sm">
+              <div>
+                <span className="text-2xl mb-2 block">📶</span>
+                <p className="text-secondary">Wi-Fi haut débit</p>
+              </div>
+              <div>
+                <span className="text-2xl mb-2 block">📽️</span>
+                <p className="text-secondary">Vidéoprojecteurs & écrans</p>
+              </div>
+              <div>
+                <span className="text-2xl mb-2 block">🎤</span>
+                <p className="text-secondary">Sono & micros</p>
+              </div>
+              <div>
+                <span className="text-2xl mb-2 block">📋</span>
+                <p className="text-secondary">Paperboards</p>
+              </div>
+              <div>
+                <span className="text-2xl mb-2 block">☕</span>
+                <p className="text-secondary">Pauses & restauration</p>
+              </div>
+              <div>
+                <span className="text-2xl mb-2 block">♿</span>
+                <p className="text-secondary">Accès PMR</p>
+              </div>
+              <div>
+                <span className="text-2xl mb-2 block">🚪</span>
+                <p className="text-secondary">Vestiaire</p>
+              </div>
+              <div>
+                <span className="text-2xl mb-2 block">🌳</span>
+                <p className="text-secondary">Espaces extérieurs</p>
               </div>
             </div>
           </div>
@@ -287,9 +443,9 @@ export default async function LeChateauPage() {
               <div className="text-accent text-4xl mb-4">👥</div>
               <h3 className="font-semibold text-lg mb-2">Capacité</h3>
               <p className="text-secondary">
-                De 20 à 250 convives<br />
-                en dîner assis<br />
-                Modulable selon vos besoins
+                Jusqu'à 300 convives<br />
+                600m² de salles et salons<br />
+                6 espaces modulables
               </p>
             </div>
 
@@ -297,9 +453,9 @@ export default async function LeChateauPage() {
               <div className="text-accent text-4xl mb-4">🚗</div>
               <h3 className="font-semibold text-lg mb-2">Accès</h3>
               <p className="text-secondary">
-                Stationnement privatif<br />
-                Accès facilité pour les prestataires<br />
-                Proche autoroute
+                À 10 min de Nantes<br />
+                Parking privé sécurisé<br />
+                Proche périphérique Sud
               </p>
             </div>
           </div>
@@ -311,10 +467,10 @@ export default async function LeChateauPage() {
         <div className="section-container">
           <div className="text-center">
             <h2 className="text-3xl font-display font-semibold text-primary mb-4">
-              Visitez le Château
+              Visitez le Manoir
             </h2>
             <p className="text-secondary text-lg mb-8">
-              Découvrez le Château de la Boulaie lors d'une visite personnalisée 
+              Découvrez le Manoir de la Boulaie lors d'une visite personnalisée 
               et imaginez votre événement dans ce cadre d'exception.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">

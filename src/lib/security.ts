@@ -1,5 +1,5 @@
 /**
- * Utilitaires de Sécurité - Château de la Boulaie
+ * Utilitaires de Sécurité - Manoir de la Boulaie
  * 
  * Fonctions helper pour la sécurisation de l'application
  * (rate limiting, sanitization, hashing, etc.)

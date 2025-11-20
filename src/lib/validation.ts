@@ -1,5 +1,5 @@
 /**
- * Schémas de Validation Zod - Château de la Boulaie
+ * Schémas de Validation Zod - Manoir de la Boulaie
  * 
  * Validation stricte des données pour tous les formulaires
  * et endpoints API du site.

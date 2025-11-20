@@ -3,10 +3,10 @@ import Image from 'next/image';
 
 /**
  * Métadonnées pour la page Mariages
- * Page dédiée aux réceptions de mariage au Château de la Boulaie
+ * Page dédiée aux réceptions de mariage au Manoir de la Boulaie
  */
 export const metadata: Metadata = {
-  title: 'Mariages & Réceptions | Château de la Boulaie',
+  title: 'Mariages & Réceptions | Manoir de la Boulaie',
   description: 'L\'art de recevoir, entre nature et élégance. Célébrez votre mariage dans un cadre romantique et raffiné, de 20 à 250 invités.',
   keywords: 'mariage, réception, château, Haute-Goulaine, wedding, cérémonie, romantique, Loire-Atlantique',
 };
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
  * Page Mariages
  * 
  * Cette page présente les services et solutions pour les mariages
- * au Château de la Boulaie.
+ * au Manoir de la Boulaie.
  */
 export default function MariagesPage() {
   return (
@@ -40,7 +40,7 @@ export default function MariagesPage() {
             L&apos;art de recevoir, entre nature et élégance
           </p>
           <p className="text-white/90 text-lg mb-4" style={{ textShadow: '0 2px 20px rgba(0, 0, 0, 0.4)' }}>
-            De 20 à 250 invités pour un dîner assis, le Château de la Boulaie offre un cadre romantique et raffiné pour célébrer le plus beau jour de votre vie.
+            De 20 à 300 invités pour un dîner assis, le Manoir de la Boulaie offre un cadre romantique et raffiné pour célébrer le plus beau jour de votre vie.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <button className="btn-primary">
@@ -99,7 +99,7 @@ export default function MariagesPage() {
       {/* CTA Section */}
       <section className="text-center bg-primary/5 rounded-2xl p-12">
         <h2 className="text-3xl font-semibold mb-4">
-          Prêt à célébrer votre mariage au Château de la Boulaie ?
+          Prêt à célébrer votre mariage au Manoir de la Boulaie ?
         </h2>
         <p className="text-secondary text-lg mb-8">
           Contactez-nous pour organiser une visite et discuter de votre projet.

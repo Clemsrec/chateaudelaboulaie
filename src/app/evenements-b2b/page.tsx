@@ -3,11 +3,11 @@ import Image from 'next/image';
 
 /**
  * Métadonnées pour la page Événements B2B
- * Page dédiée aux événements professionnels au Château de la Boulaie
+ * Page dédiée aux événements professionnels au Manoir de la Boulaie
  */
 export const metadata: Metadata = {
-  title: 'Événements Professionnels | Château de la Boulaie',
-  description: 'Organisez vos séminaires, conférences et événements corporate au Château de la Boulaie. Un cadre d\'exception près de Nantes pour vos événements d\'entreprise.',
+  title: 'Événements Professionnels | Manoir de la Boulaie',
+  description: 'Organisez vos séminaires, conférences et événements corporate au Manoir de la Boulaie. Un cadre d\'exception près de Nantes pour vos événements d\'entreprise.',
   keywords: 'événements B2B, séminaires, conférences, corporate, team building, Nantes, Loire-Atlantique',
 };
 
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
  * Page Événements B2B
  * 
  * Cette page présente les services et solutions pour les événements
- * professionnels au Château de la Boulaie.
+ * professionnels au Manoir de la Boulaie.
  */
 export default function EvenementsB2BPage() {
   return (
@@ -40,7 +40,7 @@ export default function EvenementsB2BPage() {
             Un cadre d&apos;exception pour vos événements d&apos;entreprise
           </p>
           <p className="text-white/90 text-lg mb-4" style={{ textShadow: '0 2px 20px rgba(0, 0, 0, 0.4)' }}>
-            À deux pas de Nantes, le Château de la Boulaie accueille vos séminaires, réunions et événements corporate dans un cadre moderne et raffiné.
+            À 10 minutes de Nantes, le Manoir de la Boulaie accueille vos séminaires, réunions et événements corporate dans un cadre moderne et raffiné avec 600m² de salles.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <button className="btn-primary">
@@ -69,7 +69,7 @@ export default function EvenementsB2BPage() {
               Un cadre d'exception
             </h3>
             <p className="text-secondary leading-relaxed">
-              Le Château de la Boulaie offre un cadre unique pour vos événements professionnels : salle de bal, salons privés, parc à l&apos;anglaise. 
+              Le Manoir de la Boulaie offre un cadre unique pour vos événements professionnels : 600m² de salles, 6 espaces modulables, salons privés, parc d&apos;un hectare. 
               Un lieu moderne et raffiné qui valorise votre image et crée une vraie connexion avec vos équipes et partenaires.
             </p>
           </div>
@@ -81,8 +81,8 @@ export default function EvenementsB2BPage() {
               Des espaces modulables
             </h3>
             <p className="text-secondary leading-relaxed">
-              De 20 à 250 personnes, nos espaces s&apos;adaptent à vos besoins : réunions stratégiques, séminaires, team building, 
-              cocktails d&apos;entreprise. Entièrement privatisables, ils garantissent confidentialité et exclusivité.
+              De 10 à 300 personnes, nos 6 salles s&apos;adaptent à vos besoins : réunions stratégiques, séminaires résidentiels (11 chambres), team building, 
+              cocktails d&apos;entreprise. Entièrement privatisables avec parking privé, ils garantissent confidentialité et exclusivité.
             </p>
           </div>
 
@@ -98,9 +98,6 @@ export default function EvenementsB2BPage() {
             </p>
           </div>
         </div>
-      </section>
-
-      {/* Une expérience pour vos équipes */}
       </section>
 
       {/* Une expérience pour vos équipes */}
@@ -146,10 +143,128 @@ export default function EvenementsB2BPage() {
         </div>
       </section>
 
+      {/* Nos Formules & Tarifs */}
+      <section className="mb-16">
+        <div className="text-center mb-12">
+          <h2 className="text-3xl font-semibold mb-8">
+            Nos Formules & Tarifs
+          </h2>
+          <div className="accent-line" />
+          <p className="text-secondary text-lg mt-6">
+            Des formules tout compris pour simplifier l'organisation de vos événements
+          </p>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          {/* Demi-journée */}
+          <div className="bg-white border-2 border-border rounded-xl p-8 hover:border-primary transition-colors">
+            <div className="text-center mb-6">
+              <div className="text-4xl mb-3">☕</div>
+              <h3 className="text-2xl font-semibold mb-2">Demi-journée</h3>
+              <div className="text-3xl font-bold text-primary">
+                75€<span className="text-base font-normal text-secondary">/pers. HT</span>
+              </div>
+            </div>
+            <ul className="space-y-3 text-sm text-secondary">
+              <li className="flex items-start">
+                <span className="text-primary mr-2">✓</span>
+                <span>Mise à disposition de salle</span>
+              </li>
+              <li className="flex items-start">
+                <span className="text-primary mr-2">✓</span>
+                <span>1 pause café</span>
+              </li>
+              <li className="flex items-start">
+                <span className="text-primary mr-2">✓</span>
+                <span>1 déjeuner</span>
+              </li>
+              <li className="flex items-start">
+                <span className="text-primary mr-2">✓</span>
+                <span>Équipements audiovisuels</span>
+              </li>
+            </ul>
+          </div>
+
+          {/* Journée complète */}
+          <div className="bg-primary text-white border-2 border-primary rounded-xl p-8 transform hover:scale-105 transition-transform shadow-lg">
+            <div className="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-accent text-white px-4 py-1 rounded-full text-xs font-semibold">
+              POPULAIRE
+            </div>
+            <div className="text-center mb-6 mt-2">
+              <div className="text-4xl mb-3">📊</div>
+              <h3 className="text-2xl font-semibold mb-2">Journée d'étude</h3>
+              <div className="text-3xl font-bold">
+                80€<span className="text-base font-normal opacity-90">/pers. HT</span>
+              </div>
+            </div>
+            <ul className="space-y-3 text-sm">
+              <li className="flex items-start">
+                <span className="mr-2">✓</span>
+                <span>Mise à disposition de salle</span>
+              </li>
+              <li className="flex items-start">
+                <span className="mr-2">✓</span>
+                <span>2 pauses café</span>
+              </li>
+              <li className="flex items-start">
+                <span className="mr-2">✓</span>
+                <span>1 déjeuner</span>
+              </li>
+              <li className="flex items-start">
+                <span className="mr-2">✓</span>
+                <span>Équipements audiovisuels</span>
+              </li>
+              <li className="flex items-start">
+                <span className="mr-2">✓</span>
+                <span>Wi-Fi haut débit</span>
+              </li>
+            </ul>
+          </div>
+
+          {/* Séminaire résidentiel */}
+          <div className="bg-white border-2 border-border rounded-xl p-8 hover:border-primary transition-colors">
+            <div className="text-center mb-6">
+              <div className="text-4xl mb-3">🏨</div>
+              <h3 className="text-2xl font-semibold mb-2">Séminaire 24h</h3>
+              <div className="text-3xl font-bold text-primary">
+                190€<span className="text-base font-normal text-secondary">/pers. HT</span>
+              </div>
+            </div>
+            <ul className="space-y-3 text-sm text-secondary">
+              <li className="flex items-start">
+                <span className="text-primary mr-2">✓</span>
+                <span>Mise à disposition de salle</span>
+              </li>
+              <li className="flex items-start">
+                <span className="text-primary mr-2">✓</span>
+                <span>1 déjeuner + 2 pauses</span>
+              </li>
+              <li className="flex items-start">
+                <span className="text-primary mr-2">✓</span>
+                <span>1 dîner</span>
+              </li>
+              <li className="flex items-start">
+                <span className="text-primary mr-2">✓</span>
+                <span>1 nuit en chambre double</span>
+              </li>
+              <li className="flex items-start">
+                <span className="text-primary mr-2">✓</span>
+                <span>1 petit-déjeuner</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div className="mt-8 text-center text-sm text-secondary">
+          <p>* Tarifs indicatifs H.T. Variables selon la saison et le nombre de participants.</p>
+          <p className="mt-2">Devis personnalisé sous 12h • Accompagnement par un chef de projet dédié</p>
+        </div>
+      </section>
+
       {/* CTA Section */}
       <section className="text-center bg-primary/5 rounded-2xl p-12">
         <h2 className="text-3xl font-semibold mb-4">
-          Prêt à organiser votre événement au Château de la Boulaie ?
+          Prêt à organiser votre événement au Manoir de la Boulaie ?
         </h2>
         <p className="text-secondary text-lg mb-8">
           Contactez-nous pour découvrir nos espaces et discuter de votre projet.

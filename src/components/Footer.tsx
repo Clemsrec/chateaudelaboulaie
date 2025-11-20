@@ -6,7 +6,7 @@ import Image from 'next/image';
 /**
  * Composant Footer principal
  * 
- * Footer principal du site Château de la Boulaie avec :
+ * Footer principal du site Manoir de la Boulaie avec :
  * - Informations sur le Groupe Riou
  * - Navigation principale
  * - Services proposés
@@ -27,7 +27,7 @@ export default function Footer() {
             <Link href="/" className="inline-block mb-4 hover:opacity-80 transition-opacity shrink-0">
               <Image
                 src="/logo/CHATEAUDELABOULAIE.png"
-                alt="Château de la Boulaie"
+                alt="Manoir de la Boulaie"
                 width={140}
                 height={40}
                 className="h-8 w-auto max-w-[140px]"
@@ -36,7 +36,7 @@ export default function Footer() {
             </Link>
             <p className="text-secondary text-sm mb-4 leading-relaxed">
               Domaine événementiel d'exception du Groupe Riou à Haute-Goulaine.
-              Mari ages et événements professionnels dans un cadre historique au cœur du vignoble nantais.
+              Mariages et événements professionnels dans un cadre historique au cœur du vignoble nantais.
             </p>
             <p className="text-secondary text-sm font-medium">
               Excellence événementielle depuis 1995
@@ -54,7 +54,7 @@ export default function Footer() {
                     className="text-secondary hover:text-primary transition-colors duration-200 flex items-center group"
                   >
                     <span className="w-1 h-1 bg-secondary rounded-full mr-2 group-hover:bg-primary transition-colors"></span>
-                    Le Château
+                    Le Manoir
                   </Link>
                 </li>
                 <li>
@@ -96,14 +96,14 @@ export default function Footer() {
                 <span className="text-primary mr-2 mt-1 font-bold">•</span>
                 <div>
                   <span className="text-secondary block">Séminaires & Conférences</span>
-                  <span className="text-xs text-secondary/70">10 à 500 participants</span>
+                  <span className="text-xs text-secondary/70">10 à 300 participants</span>
                 </div>
               </li>
               <li className="flex items-start">
                 <span className="text-primary mr-2 mt-1 font-bold">•</span>
                 <div>
                   <span className="text-secondary block">Mariages & Réceptions</span>
-                  <span className="text-xs text-secondary/70">50 à 300 invités</span>
+                  <span className="text-xs text-secondary/70">20 à 300 invités</span>
                 </div>
               </li>
               <li className="flex items-start">
@@ -117,7 +117,7 @@ export default function Footer() {
                 <span className="text-primary mr-2 mt-1 font-bold">•</span>
                 <div>
                   <span className="text-secondary block">Hébergement & Restauration</span>
-                  <span className="text-xs text-secondary/70">Service complet</span>
+                  <span className="text-xs text-secondary/70">11 chambres sur place</span>
                 </div>
               </li>
             </ul>

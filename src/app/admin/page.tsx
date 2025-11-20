@@ -178,7 +178,7 @@ export default function AdminPage() {
       <section>
         <h2 className="text-2xl font-semibold mb-6">Gestion des Lieux</h2>
         <p className="text-secondary mb-4">
-          Cette section sera développée pour gérer le Château de la Boulaie.
+          Cette section sera développée pour gérer le Manoir de la Boulaie.
         </p>
       </section>
 

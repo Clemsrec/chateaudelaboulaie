@@ -1,5 +1,5 @@
 /**
- * Services Firestore pour Château de la Boulaie
+ * Services Firestore pour Manoir de la Boulaie
  * 
  * Ce fichier contient tous les services pour interagir avec la base de données
  * Firestore. Utilise l'Admin SDK côté serveur pour bypass les règles de sécurité.
@@ -9,7 +9,7 @@ import { adminDb, ensureAdminInitialized } from './firebase-admin';
 import type { Venue, Lead, VenueFilters, Analytics } from '@/types/firebase';
 
 // =====================================
-// SERVICES VENUES (Château de la Boulaie)
+// SERVICES VENUES (Manoir de la Boulaie)
 // =====================================
 
 /**

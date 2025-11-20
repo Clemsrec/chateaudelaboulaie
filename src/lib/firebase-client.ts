@@ -3,7 +3,7 @@ import { getAuth, Auth } from 'firebase/auth';
 import { getFirestore, Firestore } from 'firebase/firestore';
 
 /**
- * Firebase Client SDK pour Château de la Boulaie
+ * Firebase Client SDK pour Manoir de la Boulaie
  * 
  * Utilisé côté client uniquement (navigateur) :
  * - Client Components ('use client')
